@@ -2,9 +2,12 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Samuele Mezzasalma</title>
+	<meta name="description" content="Personal page" />
 </svelte:head>
+
+
+
 
 
 <style>
