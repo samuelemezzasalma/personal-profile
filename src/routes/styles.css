@@ -29,5 +29,50 @@ button {
 	font-family: inherit;
 }
 
-@media (min-width: 720px) {
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+
+.contacts ul > li {
+	margin: 0.5em;
+}
+
+.profile img {
+	width: 100%;
+	max-width: 336px;
+	max-height: 336px;
+	border-radius: 50%;
+	border: 0.5em solid darkgoldenrod;
+	border-style: dashed;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
