@@ -5,7 +5,7 @@
 <div class="app">
 
 	<header>
-		<nav>
+		<nav id="navbar">
 			<ul>
 				<li>About</li>
 				<li>Speaking</li>

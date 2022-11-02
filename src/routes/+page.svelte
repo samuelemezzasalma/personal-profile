@@ -9,10 +9,11 @@ import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-br
 </svelte:head>
 
 <div class="g-cont">
-	<section class="profile">
+
+<section class="profile">
 		<img src="https://avatars.githubusercontent.com/u/4698607?v=4" alt="profile picture">
 	</section>
-	<section class="profile-data">
+	<section id="welcome-section" class="profile-data">
 		<h1 id="title">Hello I'm Samuele Mezzasalma</h1>
 		<p id="subtitle">Developer based in Italy</p>
 		<div class="contacts">
@@ -24,6 +25,11 @@ import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-br
 			</ul>	
 		</div>
 	</section>
+
+	<section id="projects">
+		<article class="project-tile"></article>
+	</section>
+	
 </div>
 
 
