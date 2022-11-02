@@ -29,10 +29,23 @@ button {
 	font-family: inherit;
 }
 
-.profile {
+.main-container {
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-areas:
+		'. profile profile profile profile .'
+		'profile-data profile-data profile-data profile-data profile-data profile-data'
+		'projects projects projects projects projects projects';
+}
+
+section.profile {
+	grid-area: profile;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+section.profile-data {
+	grid-area: profile-data;
 }
 
 .contacts {
@@ -48,6 +61,16 @@ button {
 	align-items: start;
 }
 
+.link {
+	width: 2em;
+}
+
+.contacts svg {
+	height: 1em;
+	object-fit: cover;
+	color: black;
+}
+
 .contacts ul > li {
 	margin: 0.5em;
 }
@@ -59,6 +82,25 @@ button {
 	border-radius: 50%;
 	border: 0.5em solid darkgoldenrod;
 	border-style: dashed;
+}
+
+section#projects {
+	grid-area: projects;
+	grid-column-gap: 15px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+
+.wide {
+	grid-column: span 2;
+}
+
+.tall {
+	grid-row: span 2;
+}
+
+.project-tile {
 }
 
 /* Small devices (landscape phones, 576px and up) */
