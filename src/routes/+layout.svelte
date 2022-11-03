@@ -4,16 +4,17 @@
 
 <div class="app">
 
-	<header>
-		<nav id="navbar">
+	<header class="g-cont">
+	<div class="header-left-block g-item"></div>
+		<nav id="navbar" class="g-item">
 			<span class="icon" aria-hidden="true">A</span>
 			<ul>
-				<li></li>
-				<li>Speaking</li>
-				<li>Writing</li>
-				<li>Uses</li>
-				<li>Contact</li>
-				<li>Dark mode</li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#speaking">Speaking</a></li>
+				<li><a href="#writing">Writing</a></li>
+				<li><a href="#uses">Uses</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#dark-mode">Dark mode</a></li>
 			</ul>
 		</nav>
 	</header>
