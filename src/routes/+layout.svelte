@@ -1,53 +1,53 @@
 <script>
-	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
-	<Header />
+
+	<header>
+		<nav id="navbar">
+			<span class="icon" aria-hidden="true">A</span>
+			<ul>
+				<li></li>
+				<li>Speaking</li>
+				<li>Writing</li>
+				<li>Uses</li>
+				<li>Contact</li>
+				<li>Dark mode</li>
+			</ul>
+		</nav>
+	</header>
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<section>
+			<h2>Get in touch</h2>
+			<ul>
+				<li>Twitter</li>
+				<li>Youtube</li>
+				<li>Github</li>
+				<li>Linkedin</li>
+			</ul>
+		</section>
 	</footer>
 </div>
 
 <style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
+	/* .app {
 	}
 
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
 	}
 
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
 	}
 
 	footer a {
-		font-weight: bold;
 	}
 
 	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
+	} */
 </style>
