@@ -6,6 +6,7 @@
 
 	<header>
 		<nav id="navbar">
+			<span class="icon" aria-hidden="true">A</span>
 			<ul>
 				<li>About</li>
 				<li>Speaking</li>
