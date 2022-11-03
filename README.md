@@ -2,7 +2,7 @@
 
 [![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/samuelemezzasalma/personal-profile)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/samuelemezzasalma/personal-profile)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/samuelemezzasalma/personal-profile/tree/main-template)
 
 User stories:
 
