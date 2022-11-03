@@ -59,6 +59,7 @@ header nav {
 	font-size: 2rem;
 	cursor: pointer;
 }
+
 #navbar ul:hover {
 	display: flex;
 	flex-direction: column;
@@ -151,17 +152,28 @@ section#projects {
 	grid-row: span 2;
 }
 
-.project-tile {
-}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	#navbar ul {
+
+
+	#navbar ul:hover, #navbar ul {
+		position: static;
 		list-style: none;
 		display: flex;
 		flex-direction: row;
 		justify-content: end;
 		/* background-color: aqua; */
+	}
+
+	a {
+		color: inherit;
+		text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+		transition: text-decoration-color 300ms;
+	}
+	
+	a:hover {
+		text-decoration-color: rgba(255, 255, 255, 1);
 	}
 	
 	#navbar li {
