@@ -94,15 +94,6 @@ header a:hover {
 	text-decoration: none;
 }
 
-.toggle-btn {
-	display: block;
-	position: absolute;
-	z-index: 20;
-	right: 40px;
-	top: 50px;
-	cursor: pointer;
-}
-
 #navbar:hover > ul {
 	opacity: 1;
 	visibility: visible;
@@ -151,7 +142,14 @@ header ul {
 	cursor: pointer;
 } */
 
-.header nav:hover > .icon {
+header nav:hover > .icon {
+	display: block;
+	/* position: absolute; */
+	z-index: 20;
+	right: 40px;
+	top: 50px;
+	cursor: pointer;
+	color: #fff;
 	font-variation-settings: 'TIME' 100;
 }
 .main-container {
