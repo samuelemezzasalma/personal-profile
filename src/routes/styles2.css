@@ -104,6 +104,9 @@ ul {
 .header-menu {
 	grid-area: header-menu;
 	display: flex;
+	flex-wrap: wrap;
+  justify-content: flex-end;
+	align-items: center;
 }
 
 .icon {
@@ -112,6 +115,16 @@ ul {
 
 .input-box {
 	display: none;
+}
+
+.menu-list {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-link {
+	margin: 0 0.5em;
 }
 
 .main-container {
@@ -158,11 +171,8 @@ ul {
 	}
 
 	.header-menu {
-		flex-direction: row;
-		justify-content: flex-end;
-		align-items: center;
 		position: relative;
-    z-index: 19840;
+    z-index: 20000;
 	}
 
 	.menu-list {
@@ -276,7 +286,21 @@ ul {
 			'projects projects projects projects projects projects';
 	}
 
-	.contacts {}
+	.contacts {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.contact-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.contact-link {
+		margin: 0 0.5em;
+	}
 
 	.link {}
 
