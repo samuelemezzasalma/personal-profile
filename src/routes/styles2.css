@@ -31,7 +31,8 @@
 	grid-area:  header-title;
 }
 .header-menu {
-	grid-area: header-menu ;
+	grid-area: header-menu;
+	display: flex;
 }
 
 .profile {
@@ -47,6 +48,14 @@
 	border-style: dashed;
 }
 
+.menu-list{
+	list-style: none;
+}
+
+.input-box {
+	display: none;
+}
+
 @media only screen and (width <= 43rem) {
 
 	/* --- HEADER --- */
@@ -58,14 +67,29 @@
 		'header-icon header-title header-menu header-menu header-menu header-menu';
 	}
 
+	.header-menu {
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.menu-list{
+		display: none;
+	}
+
+	.icon {
+		font-family: 'Anicons Regular', sans-serif;
+		display: block;
+		font-size: 2em;
+		cursor: pointer;
+	}
 	
 
 	/* #navbar {}
 
-	.input-box {}
+	
 	.burger {}
-	.icon{}
-	.menu-list{} */
+	 */
 
 	/* --- MAIN --- */
 	
