@@ -11,7 +11,7 @@ import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-br
 <section class="g-item profile">
 	<img src="https://avatars.githubusercontent.com/u/4698607?v=4" alt="profile picture">
 </section>
-<section id="welcome-section" class="g-item profile-data">
+<section id="welcome-section" class="profile-data g-item">
 	<h1 id="title">Hello I'm Samuele Mezzasalma</h1>
 	<p id="subtitle">Developer based in Italy</p>
 	<div class="contacts">
