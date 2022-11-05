@@ -8,7 +8,9 @@
 	<div class="header-left-block g-item"></div>
 		<nav id="navbar" class="g-item">
 			<span class="icon" aria-hidden="true">A</span>
-			<ul>
+			<input id="dropdown" class="input-box" type="checkbox" >
+			<!-- <label for="dropdown" class="dropdown"></label> -->
+			<ul class="menu-list">
 				<li><a href="#about">About</a></li>
 				<li><a href="#speaking">Speaking</a></li>
 				<li><a href="#writing">Writing</a></li>

@@ -70,7 +70,7 @@ header {
 	/* position: relative; */
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
 }
 
@@ -94,12 +94,6 @@ header a:hover {
 	text-decoration: none;
 }
 
-#navbar:hover > ul {
-	opacity: 1;
-	visibility: visible;
-	z-index: 1;
-}
-
 header ul {
 	background-color: rgba(0, 0, 0, 0.8);
 	position: fixed;
@@ -112,7 +106,14 @@ header ul {
 	transition: all 0.3s ease-in-out;
 }
 
-#navbar:hover > ul {
+#dropdown {
+	/* display: none; */
+}
+
+input[type='checkbox']:checked ~ .menu-list {
+	opacity: 1;
+	visibility: visible;
+	z-index: 1;
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
