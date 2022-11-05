@@ -19,12 +19,12 @@
 					<span class="icon" aria-hidden="true">A</span>
 				</label>
 				<ul class="menu-list">
-					<li><a href="#about">About</a></li>
-					<li><a href="#speaking">Speaking</a></li>
-					<li><a href="#writing">Writing</a></li>
-					<li><a href="#uses">Uses</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="#dark-mode">Dark mode</a></li>
+					<li class="header__link" ><a href="#about">About</a></li>
+					<li class="header__link" ><a href="#speaking">Speaking</a></li>
+					<li class="header__link" ><a href="#writing">Writing</a></li>
+					<li class="header__link" ><a href="#uses">Uses</a></li>
+					<li class="header__link" ><a href="#contact">Contact</a></li>
+					<!-- <li class="header__link" ><a href="#dark-mode">Dark mode</a></li> -->
 				</ul>
 			</nav>
 		</div>
