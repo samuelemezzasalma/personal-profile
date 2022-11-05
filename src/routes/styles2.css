@@ -309,4 +309,24 @@ a {
 	}
 }
 
-@media only screen and (62rem <=width <=82rem) {}
+@media only screen and (62rem <=width <=82rem) {
+	.header {
+		grid-template-columns: inherit;
+		grid-template-areas:
+			'header-icon header-title header-menu header-menu header-menu header-menu';
+	}
+
+	.main-container {
+		grid-template-columns: inherit;
+		grid-template-areas:
+			'profile-data profile-data profile-data profile profile profile'
+			'projects projects projects projects projects projects';
+		/* grid-template-areas: ; */
+	}
+
+	.footer {
+		grid-template-columns: inherit;
+		/* grid-template-areas: ; */
+	}
+
+}
