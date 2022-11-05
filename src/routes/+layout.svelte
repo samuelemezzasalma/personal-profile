@@ -1,5 +1,6 @@
 <script>
-	import './styles.css';
+	// import './styles.css';
+	import './styles2.css';
 </script>
 
 <div class="app">
@@ -7,9 +8,11 @@
 	<header class="g-cont">
 	<div class="header-left-block g-item"></div>
 		<nav id="navbar" class="g-item">
-			<span class="icon" aria-hidden="true">A</span>
+			
 			<input id="dropdown" class="input-box" type="checkbox" >
-			<!-- <label for="dropdown" class="dropdown"></label> -->
+			<label for="dropdown" class="dropdown">
+				<span class="icon" aria-hidden="true">A</span>
+			</label>
 			<ul class="menu-list">
 				<li><a href="#about">About</a></li>
 				<li><a href="#speaking">Speaking</a></li>
