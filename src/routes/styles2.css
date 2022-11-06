@@ -28,6 +28,11 @@ html {
 	font-size: 100%;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+}
+
 /* article {
 	font-size: 1rem;
 } */
@@ -36,6 +41,8 @@ h1,
 h2,
 h3 {
 	font-family: "Merriweather", serif;
+	margin: 0;
+	padding: 0;
 	/* color: #fffffe; */
 	color: #00473e;
 }
@@ -57,25 +64,25 @@ p {
 
 /* Font size variables */
 h1 {
-	--min: 2em;
-	--val: 2.5em;
-	--max: 3em;
+	--min: 3em;
+	--val: 4em;
+	--max: 5em;
 	line-height: calc(1ex / 0.42);
 	font-weight: bolder;
 	letter-spacing: 0.04em;
 }
 
 h2 {
-	--min: 1.5em;
-	--val: 1.9em;
-	--max: 2.25em;
+	--min: 2em;
+	--val: 3em;
+	--max: 4em;
 	line-height: calc(1ex / 0.42);
 }
 
 h3 {
-	--min: 1.2em;
-	--val: 1.46em;
-	--max: 1.75em;
+	--min: 1.5em;
+	--val: 2.5em;
+	--max: 3.5em;
 	line-height: calc(1ex / 0.38);
 }
 
@@ -106,6 +113,7 @@ ul {
 
 .header {
 	grid-area: header;
+	min-height: 4em;
 }
 
 .header-icon {
@@ -146,16 +154,17 @@ ul {
 	grid-area: main-container;
 }
 
-.profile-data h1, h2, h3, p, a {
-	color: #fffffe;
-}
-
 .profile {
-	grid-area: profile;
+	padding: 4em 0;
 	background-color: #00473e;
+	grid-area: profile;
 }
 
-.profile img {
+.profile-img {
+	grid-area: profile-img;
+}
+
+.profile-img img {
 	width: 100%;
 	max-width: 336px;
 	max-height: 336px;
@@ -170,7 +179,10 @@ ul {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #00473e;
+}
+
+.profile-data * {
+	color: #fffffe;
 }
 
 .contacts {
@@ -325,8 +337,19 @@ ul {
 		grid-template-columns: inherit;
 		grid-template-areas:
 			'profile profile profile profile profile profile'
-			'profile-data profile-data profile-data profile-data profile-data profile-data'
+			/* 'profile-data profile-data profile-data profile-data profile-data profile-data' */
 			'projects projects projects projects projects projects';
+	}
+
+	.profile {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-areas: 
+		'profile-img profile-img profile-img profile-img profile-img profile-img'
+		'profile-data profile-data profile-data profile-data profile-data profile-data';
+	}
+
+	.profile-data {
+		/* padding-bottom: 4em; */
 	}
 
 	.contacts {
@@ -361,9 +384,16 @@ ul {
 		grid-template-columns: inherit;
 		grid-template-areas:
 			'profile profile profile profile profile profile'
-			'profile-data profile-data profile-data profile-data profile-data profile-data'
+			/* 'profile-data profile-data profile-data profile-data profile-data profile-data' */
 			'projects projects projects projects projects projects';
 		/* grid-template-areas: ; */
+	}
+
+	.profile {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-areas: 
+		'profile-img profile-img profile-img profile-img profile-img profile-img'
+		'profile-data profile-data profile-data profile-data profile-data profile-data';
 	}
 
 	.footer {
@@ -382,9 +412,17 @@ ul {
 	.main-container {
 		grid-template-columns: inherit;
 		grid-template-areas:
-			'profile-data profile-data profile-data profile profile profile'
+			'profile profile profile profile profile profile'
 			'projects projects projects projects projects projects';
 		/* grid-template-areas: ; */
+	}
+
+	.profile {
+		grid-template-columns: inherit;
+		grid-template-areas: 'profile-img profile-img profile-img profile-data profile-data profile-data';
+	}
+
+	.profile-data {
 	}
 
 	.footer {

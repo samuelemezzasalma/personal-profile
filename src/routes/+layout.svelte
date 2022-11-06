@@ -7,10 +7,10 @@
 
 	<header class="g-cont header">
 		<div class="g-item header-icon ">
-			<p>Test</p>
+			<!-- <p>Test</p> -->
 		</div>
 		<div class="g-item header-title ">
-			<p>Test</p>
+			<!-- <p>Test</p> -->
 		</div>
 		<div class="g-item header-menu">
 			<nav id="navbar">
