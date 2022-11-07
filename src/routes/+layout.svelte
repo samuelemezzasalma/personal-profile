@@ -14,16 +14,16 @@
 		</div>
 		<div class="g-item header-menu">
 			<nav id="navbar">
-				<input id="dropdown" class="input-box" type="checkbox" >
-				<label for="dropdown" class="burger">
-					<span class="icon" aria-hidden="true">A</span>
-				</label>
+				<!-- <input id="dropdown" class="input-box" type="checkbox" >
+				<label for="dropdown" class="burger"> -->
+					<span tabindex="0" class="icon" aria-hidden="true">
+						A
+					</span>
+				<!-- </label> -->
 				<ul class="menu-list">
-					<li class="header-link" ><a href="#about">About</a></li>
-					<li class="header-link" ><a href="#speaking">Speaking</a></li>
-					<li class="header-link" ><a href="#writing">Writing</a></li>
-					<li class="header-link" ><a href="#uses">Uses</a></li>
-					<li class="header-link" ><a href="#contact">Contact</a></li>
+					<li class="header-link" ><a href="#speaking">Profile</a></li>
+					<li class="header-link" ><a href="#projects">Projects</a></li>
+					<li class="header-link" ><a href="#contact">Contacts</a></li>
 					<!-- <li class="header__link" ><a href="#dark-mode">Dark mode</a></li> -->
 				</ul>
 			</nav>

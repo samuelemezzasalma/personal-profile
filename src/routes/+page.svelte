@@ -46,7 +46,7 @@ import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-br
 </div>
 
 
-<section class="projects g-cont">
+<section id="projects" class="projects g-cont">
 	<article class="g-item project-tile"></article>
 	<article class="g-item project-tile"></article>
 	<article class="g-item project-tile"></article>
