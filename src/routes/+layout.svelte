@@ -3,6 +3,12 @@
 	import './styles2.css';
 </script>
 
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</svelte:head>
+
 <div class="g-cont app">
 
 	<header class="g-cont header">
@@ -15,11 +21,8 @@
 		<div class="g-item header-menu">
 			<nav id="navbar">
 				<!-- <input id="dropdown" class="input-box" type="checkbox" >
-				<label for="dropdown" class="burger"> -->
-					<span tabindex="0" class="icon" aria-hidden="true">
-						A
-					</span>
-				<!-- </label> -->
+				<label for="dropdown" class="burger"></label> -->
+				<span tabindex="0" class="icon" aria-hidden="true">E</span>
 				<ul class="menu-list">
 					<li class="header-link" ><a href="#speaking">Profile</a></li>
 					<li class="header-link" ><a href="#projects">Projects</a></li>
