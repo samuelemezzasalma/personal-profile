@@ -1,6 +1,8 @@
 <script>
 	// import './styles.css';
 	// import './styles2.css';
+	import Fa from 'svelte-fa/src/fa.svelte'
+	import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <svelte:head>
@@ -38,8 +40,29 @@
 		<slot />
 	</main>
 
-	<footer id="footer" class="g-cont footer">
-		<section>
+	<footer id="footer" class="g-item footer">
+		<div class="footer-wrap">
+			<section class="footer-main">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</section>
+			<section class="footer-col">
+				<h3>Find me</h3>
+				<a href="https://github.com/samuelemezzasalma">
+					<!-- <Fa class="link" icon={faGithub} /> -->
+					Github</a>
+				<a href="https://www.linkedin.com/in/samuele-mezzasalma/">
+					<!-- <Fa class="link" icon={faLinkedin} /> -->
+					Linkedin
+				</a>
+				<!-- <a href="https://www.youtube.com/" >YouTube</a> -->
+				<!-- <a href="https://www.instagram.com/" >Instagram</a> -->
+				<!-- <a href="https://twitter.com/" >Twitter</a> -->
+			</section>
+		</div>
+		<section class="footer-copyright">
+			<p>©2022 Samuele Mezzasalma. All Rights Reserved.</p>
+		</section>
+		<!-- <section>
 			<h2>Get in touch</h2>
 			<ul>
 				<li>Twitter</li>
@@ -47,7 +70,7 @@
 				<li>Github</li>
 				<li>Linkedin</li>
 			</ul>
-		</section>
+		</section> -->
 	</footer>
 </div>
 
