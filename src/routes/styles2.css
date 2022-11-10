@@ -238,10 +238,11 @@ ul {
 }
 
 .profile-svg > svg {
-	height: clamp(
+	height: 1em;
+	/* height: clamp(
 		var(1em), 
 		var(1.25em), 
-		var(1.5em));
+		var(1.5em)); */
 }
 
 .projects {
@@ -256,7 +257,7 @@ ul {
 }
 
 .project-gallery {
-	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	/* grid-auto-rows: 200px; */
 	/* grid-auto-flow: dense; */
 	gap: 2em;
