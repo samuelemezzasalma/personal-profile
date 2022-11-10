@@ -8,12 +8,12 @@
 		<meta name="description" content="Personal page" />
 	</svelte:head>
 	
-	<div id="profile" class="g-cont profile">
+	<div id="profile" class="profile">
 		<section class="g-item profile-img">
 			<!-- src="https://avatars.githubusercontent.com/u/4698607?v=4" -->
 			<img src="BaD9Ui98_400x400.png"  alt="profile picture">
 		</section>
-		<section id="welcome-section" class="profile-data g-item">
+		<section id="welcome-section" class="g-item profile-data">
 			<h1 id="title">Hey! I am Sam</h1>
 			<h4><i>a web developer based in Italy</i></h4>
 			<!-- <p id="subtitle"></p> -->
@@ -76,8 +76,8 @@
 	</div>
 	
 	<section id="projects" class="projects g-item">
-		<h4>These are some of my projects</h4>
-		<div class="project-gallery g-cont">
+		<!-- <h4>These are some of my projects</h4> -->
+		<div class="g-cont project-gallery">
 			<div class="card project-tile" >
 				<a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
 					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" class="card-img-top" alt="" />
