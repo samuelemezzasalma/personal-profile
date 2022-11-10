@@ -8,7 +8,7 @@
 		<meta name="description" content="Personal page" />
 	</svelte:head>
 	
-	<div class="g-cont profile">
+	<div id="profile" class="g-cont profile">
 		<section class="g-item profile-img">
 			<!-- src="https://avatars.githubusercontent.com/u/4698607?v=4" -->
 			<img src="BaD9Ui98_400x400.png"  alt="profile picture">

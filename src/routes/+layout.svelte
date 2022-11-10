@@ -1,12 +1,13 @@
 <script>
 	// import './styles.css';
-	import './styles2.css';
+	// import './styles2.css';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link href="src/routes/styles2.css" rel="stylesheet">
 </svelte:head>
 
 <div class="g-cont app">
@@ -24,9 +25,9 @@
 				<label for="dropdown" class="burger"></label> -->
 				<span tabindex="0" class="icon" aria-hidden="true">E</span>
 				<ul class="menu-list">
-					<li class="header-link" ><a href="#speaking">Profile</a></li>
+					<li class="header-link" ><a href="#profile">Profile</a></li>
 					<li class="header-link" ><a href="#projects">Projects</a></li>
-					<li class="header-link" ><a href="#contact">Contacts</a></li>
+					<li class="header-link" ><a href="#footer">Contacts</a></li>
 					<!-- <li class="header__link" ><a href="#dark-mode">Dark mode</a></li> -->
 				</ul>
 			</nav>
@@ -37,7 +38,7 @@
 		<slot />
 	</main>
 
-	<footer class="g-cont footer">
+	<footer id="footer" class="g-cont footer">
 		<section>
 			<h2>Get in touch</h2>
 			<ul>
