@@ -49,63 +49,19 @@
 		<h2>These are some of my projects</h2>
 		<div class="g-cont project-gallery">
 			<div class="card project-tile" >
-				<a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" class="card-img-top" alt="" />
+				<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" target="_blank">
+					<img src="./Screenshot from 2022-11-11 16-08-21.png" class="card-img-top" alt="" />
 				</a>
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+					<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page" class="btn btn-primary" target="_blank">Open project</a>
 				</div>
 			</div>
 			<div class="card project-tile" >
-				<a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" class="card-img-top" alt="project" >
+				<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" target="_blank">
+					<img src="./Screenshot from 2022-11-11 16-21-17.png" class="card-img-top" alt="project" >
 				</a>
 				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card project-tile" >
-				<a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" class="card-img-top" alt="project" >
-				</a>
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card project-tile" >
-				<a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" class="card-img-top" alt="project" >
-				</a>
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card" >
-				<a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" >
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" class="card-img-top" alt="project" >
-				</a>
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card project-tile" >
-				<a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
-					<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" class="card-img-top" alt="project" >
-				</a>
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+					<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page" target="_blank" class="btn btn-primary">Open project</a>
 				</div>
 			</div>
 	

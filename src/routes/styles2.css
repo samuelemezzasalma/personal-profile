@@ -241,6 +241,10 @@ ul {
 	text-align: start;
 }
 
+.card-body {
+	justify-content: flex-end;
+}
+
 .card:hover {
 	position: inherit;
 	cursor: pointer;
@@ -265,12 +269,17 @@ ul {
 	background-color: #faae2c;
 	color: #00473e;
 	border: none;
+	font-size: 1em;
+	font-family: "Source Sans Pro", sans-serif;
+	line-height: normal;
 }
 
 .btn.btn-primary:hover {
 	background-color: #faae2c;
 	color: #00473e;
-	box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6);
+	line-height: normal;
+	/* box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6); */
+	font-size: 1em;
 }
 
 
