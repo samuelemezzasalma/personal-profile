@@ -14,10 +14,8 @@
 
 	<header class="g-cont header">
 		<div class=" header-icon ">
-			<!-- <p>Test</p> -->
 		</div>
 		<div class=" header-title ">
-			<!-- <p>Test</p> -->
 		</div>
 		<div class=" header-menu">
 			<nav id="navbar">
@@ -26,7 +24,6 @@
 					<li class="header-link" ><a href="#profile">Profile</a></li>
 					<li class="header-link" ><a href="#projects">Projects</a></li>
 					<li class="header-link" ><a href="#footer">Contacts</a></li>
-					<!-- <li class="header__link" ><a href="#dark-mode">Dark mode</a></li> -->
 				</ul>
 			</nav>
 		</div>
