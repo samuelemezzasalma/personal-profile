@@ -2,13 +2,13 @@
 @import 'stuffing.css';
 
 :root {
-	--color-1: #332A2A;
-	--color-2: #E4B97F;
-	--color-3: #9DAEB5;
-	--color-4: #8F695C;
-	--color-5: #6381AE;
-
-
+	--color-1: #00473e;
+	--color-2: #475d5b;
+	--color-3: #f2f7f5;
+	--color-4: #faae2b;
+	--color-5: #fffffe;
+	--color-6: #fff;
+	--color-7: rgba(0, 0, 0, 0.6);
 }
 
 * {
@@ -34,7 +34,7 @@ h4 {
 	font-family: "Merriweather", serif;
 	margin: 0;
 	padding: 0;
-	color: #00473e;
+	color: var(--color-1);
 }
 
 /* Declare text styles */
@@ -81,7 +81,7 @@ a:hover {
 	--max: 1.5em;
 	line-height: calc(1ex / 0.32);
 	font-family: "Source Sans Pro", sans-serif;
-	color: #475d5b;
+	color: var(--color-2);
 }
 
 ul {
@@ -97,7 +97,7 @@ ul {
 		'header header header header header header'
 		'main-container main-container main-container main-container main-container main-container'
 		'footer footer footer footer footer footer';
-	background-color: #f2f7f5;
+	background-color: var(--color-3);
 	min-width: 336px;
 }
 
@@ -105,7 +105,7 @@ ul {
 	position: sticky;
 	top: 0;
 	left: 0;
-	background-color: #f2f7f5;
+	background-color: var(--color-3);
 	grid-area: header;
 	min-height: 4em;
 }
@@ -152,7 +152,7 @@ ul {
 }
 
 .header-link:hover {
-	background-color: #faae2b;
+	background-color: var(--color-4);
 }
 
 .header-link a {
@@ -166,7 +166,7 @@ ul {
 .profile {
 	height: 100vh;
 	grid-template-columns: repeat(6, 1fr);
-	background-color: #00473e;
+	background-color: var(--color-1);
 	grid-area: profile;
 }
 
@@ -187,7 +187,7 @@ ul {
 }
 
 .profile-data * {
-	color: #fffffe;
+	color: var(--color-5);
 }
 
 .contacts {
@@ -229,7 +229,7 @@ ul {
 .card {
 	height: 100%;
 	position: inherit;
-	background-color: #fffffe;
+	background-color: var(--color-5);
 	padding: 1em;
 	margin: 0 0.5em;
 }
@@ -267,7 +267,7 @@ ul {
 .btn.btn-primary {
 	padding: 1.2em 2em;
 	background-color: #faae2c;
-	color: #00473e;
+	color: var(--color-1);
 	border: none;
 	font-size: 1em;
 	font-family: "Source Sans Pro", sans-serif;
@@ -276,9 +276,8 @@ ul {
 
 .btn.btn-primary:hover {
 	background-color: #faae2c;
-	color: #00473e;
+	color: var(--color-1);
 	line-height: normal;
-	/* box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6); */
 	font-size: 1em;
 }
 
@@ -323,7 +322,7 @@ ul {
 
 .footer-col a:hover {
 	cursor: pointer;
-	color: #faae2b;
+	color: var(--color-4);
 }
 
 @media only screen and (width <=43rem) {
@@ -353,10 +352,7 @@ ul {
 
 	.icon:focus {
 		font-variation-settings: "TIME" 100;
-		color: #fff;
-	}
-
-	input[type='checkbox']:checked+label>.icon {
+		color: var(--color-6);
 	}
 
 	.menu-list {
@@ -385,13 +381,13 @@ ul {
 		-webkit-backdrop-filter: blur(15px);
 		opacity: 0;
 		pointer-events: none;
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: var(--color-7);
 	}
 
 	.header-link {
 		transition: transform 0.15s ease-in;
 		transform: translate(0, 0);
-		border-bottom: 2px solid #fff;
+		border-bottom: 2px solid var(--color-6);
 		padding: 0.2em 0;
 		margin: 0 0 0.5em 0;
 		background-color: unset;
@@ -402,13 +398,13 @@ ul {
 	}
 
 	.header-link:hover {
-		border-color: #faae2b;
+		border-color: var(--color-4);
 	}
 
 	.header-link a {
 		display: inline-block;
 		text-decoration: none;
-		color: #fff;
+		color: var(--color-6);
 		line-height: 0.85;
 	}
 
